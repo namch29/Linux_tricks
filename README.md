@@ -6,7 +6,6 @@ sudo apt-get install alsa-base
 sudo apt-get install pulseaudio
 sudo alsa force-reload
 
-=====================================================
 2. Change name of user:
 
     
