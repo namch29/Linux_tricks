@@ -36,3 +36,5 @@
             compton&
             plank&
             nitrogen --restore&
+      Time:
+            dpkg-reconfigure tzdata
