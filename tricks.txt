@@ -22,4 +22,5 @@
  
  4. Using universe repository:
         sudo add-apt-repository universe
- 5.
+ 5. Apps:
+      xinit openbox obconf obmenu terminator thunar thunar-archive-plugin nitrogen lxappearance 
