@@ -24,3 +24,8 @@
         sudo add-apt-repository universe
  5. Apps:
       xinit openbox obconf obmenu terminator thunar thunar-archive-plugin nitrogen lxappearance 
+      
+      Cursor:
+            sudo add-apt-repository ppa:dyatlov-igor/la-capitaine
+            sudo apt update
+            sudo apt install la-capitaine-cursor-theme
