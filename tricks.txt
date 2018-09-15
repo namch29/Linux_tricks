@@ -4,6 +4,8 @@
       sudo apt-get install alsa-base
       sudo apt-get install pulseaudio 
       sudo alsa force-reload
+      sudo apt-get install pavucontrol
+      reboot
       
  2. Change username:
         sudo passwd root
