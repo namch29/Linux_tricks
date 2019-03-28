@@ -38,3 +38,8 @@
             nitrogen --restore&
       Time:
             dpkg-reconfigure tzdata
+
+6. DPKG is locked:
+      ps aux | grep -i apt
+      sudo kill -9 <PID>
+      sudo killall apt apt-get
