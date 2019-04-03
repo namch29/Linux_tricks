@@ -47,5 +47,7 @@
       or:
       fuser -k /var/lib/apt/lists/lock
       
+      Though you may want to check what process it is first with lsof /var/lib/apt/lists/lock or fuser /var/lib/apt/lists/lock. And exit it normally if possible instead of coldly kill it.
+      
 7. using awk to read column in a text file
       awk '{gsub("-"," ",$3);print $3,$10}' h1h3 | awk '{print $1,$3}' > h1h3cwnd
