@@ -44,5 +44,8 @@
       sudo kill -9 <PID>
       sudo killall apt apt-get
       
+      or:
+      fuser -k /var/lib/apt/lists/lock
+      
 7. using awk to read column in a text file
       awk '{gsub("-"," ",$3);print $3,$10}' h1h3 | awk '{print $1,$3}' > h1h3cwnd
