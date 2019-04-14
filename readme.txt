@@ -26,7 +26,7 @@
         sudo add-apt-repository universe
         
  5. Apps after install Ubuntu server:
-      xinit openbox obconf obmenu obkey terminator thunar thunar-archive-plugin nitrogen lxappearance 
+      xinit openbox obconf obmenu obkey terminator thunar thunar-archive-plugin nitrogen lxappearance arandr
       
       Cursor:
             sudo add-apt-repository ppa:dyatlov-igor/la-capitaine
