@@ -28,6 +28,13 @@
  5. Apps after install Ubuntu server:
       xinit openbox obconf obmenu obkey terminator thunar thunar-archive-plugin nitrogen lxappearance arandr
       
+      Openbox does not work:
+            gedit ~/.xinitrc  -->  #!/usr/bin/env bash --> --> exec openbox-session 
+            chmod +x ~/.xinitrc
+            sudo /etc/init.d/gdm stop
+            startx
+      Plank does not work:
+            adding export XDG_SESSION_TYPE=x11` in ~/.xinitrc
       Cursor:
             sudo add-apt-repository ppa:dyatlov-igor/la-capitaine
             sudo apt update
@@ -38,6 +45,7 @@
             nitrogen --restore&
       Time:
             dpkg-reconfigure tzdata
+      
 
 6. DPKG is locked:
       ps aux | grep -i apt
